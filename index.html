@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="Description"
+      content="Anushka Portfolio Website, made using HTML,CSS and JS, to showcase her knowledge on web development. "
+    />
+    <meta property="og:image" content="" />
+    <meta property="og:image:type" content="" />
+    <meta property="og:image:width" content="" />
+    <meta property="og:image:height" content="" />
+    <meta property="og:title" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anushka Gutgutia Portfolio Website</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container example">
+      <div class="landingPage">
+        <!-- first page -->
+        <!-- navigation on top -->
+
+        <div id="navbar">
+          <a href=""><img class="logo" src="" alt="" /></a>
+          <ul>
+            <li><a href="#About"><b>About</b></a></li>
+            <li><a href="#Projects"><b>Projects</b></a></li>
+            <li><a href="#Contact"><b>Contact</b></a></li>
+            <li><a href="#"><b>Blog</b></a></li>
+            <li><a href="#"><b>Resume</b></a></li>
+          </ul>
+          
+        </div>
+        
+        <table width="80%" >
+         <tr>
+            <td> <h2 style="color: aliceblue">I am Anushka Gutgutia</h2>
+               <p style="color: aliceblue">I am an Enthusiast fronend developer</p>
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo eveniet minus iste accusantium fugiat. Dolor tempora quidem minus cupiditate fugiat velit, aut nobis delectus, unde a tenetur ea!</p>
+            </td>
+            <td><img src="/images/meImage.png" alt="Anushka's Picture" srcset="" height="500px"></td>
+         </tr>
+        </table>
+      </div>
+
+      <!-- About me section -- second page -->
+      <div class="two section ">
+        <div id="About">
+          <div class="aboutme">
+            <h2>About me...</h2>
+          </div>
+          <br />
+          <div class="aboutme_text">
+            <h4>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad beatae
+              molestias velit. A provident odit magnam id error nemo aliquam,
+              quo temporibus, quae illum architecto, laudantium magni. Modi,
+              voluptatem aspernatur.
+            </h4>
+          </div>
+
+          <div class="tab">
+            <button
+              class="tablinks"
+              onclick="openCity(event, 'b1')"
+              id="defaultopen"
+            >
+              Education
+            </button>
+            <button class="tablinks" onclick="openCity(event, 'b2')">
+              Skills
+            </button>
+            <button class="tablinks" onclick="openCity(event, 'b3')">
+              Work
+            </button>
+          </div>
+
+          <div id="b1" class="tabcontent">
+            <!-- <span
+                onclick="this.parentElement.style.display='none'"
+                class="closebtn">&times;</span> -->
+            <div class="aboutMeRow_inside">
+              <div
+                class="aboutMeColumn_inside"
+                style="background-color:#b56576c0">
+              
+                <h4>B.Tech CSE</h4>
+                <hr>
+                <p>CGPA: 7.04</p>
+                <p><span style="font-size: 15px">&#x1f4c5;</span>2018-2022</p>
+                <p>
+                  <span style="font-size: 15px">&#x1f4cd;</span>Amity
+                  University, Haryana
+                </p>
+              </div>
+            </div>
+            <div class="aboutMeRow_inside">
+              <div
+                class="aboutMeColumn_inside"
+                style="background-color:#b56576c0"
+              >
+                <h4>12th (CBSE)</h4>
+                <hr>
+                <p>Percentage:70%</p>
+                <p><span style="font-size: 15px">&#x1f4c5;</span>2018</p>
+                <p>
+                  <span style="font-size: 15px">&#x1f4cd;</span>Mody School,
+                  Lakshmangarh
+                </p>
+              </div>
+            </div>
+            <div class="aboutMeRow_inside">
+              <div
+                class="aboutMeColumn_inside"
+                style="background-color:#b56576dc"
+              >
+                <h4>10th (ICSE)</h4>
+                <hr>
+                <p>Percentage:82%</p>
+                <p><span style="font-size: 15px">&#x1f4c5;</span>2016</p>
+                <p>
+                  <span style="font-size: 15px">&#x1f4cd;</span>Holy Child
+                  School, Dumka
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div id="b2" class="tabcontent">
+            <!-- <span
+                onclick="this.parentElement.style.display='none'"
+                class="closebtn"
+                >&times;</span
+              > -->
+
+            <p>HTML</p>
+            <div class="progress_container">
+              <div class="skill html">40%</div>
+            </div>
+
+            <p>CSS</p>
+            <div class="progress_container">
+              <div class="skill css">40%</div>
+            </div>
+            <p>JAVASCRIPT</p>
+            <div class="progress_container">
+              <div class="skill javascript">5%</div>
+            </div>
+            <p>JAVA</p>
+            <div class="progress_container">
+              <div class="skill java">40%</div>
+            </div>
+            <p>SQL</p>
+            <div class="progress_container">
+              <div class="skill sql">20%</div>
+            </div>
+          </div>
+
+          <div id="b3" class="tabcontent">
+            <!-- <span
+                onclick="this.parentElement.style.display='none'"
+                class="closebtn"
+                >&times;</span
+              > -->
+            <div class="aboutMeRow_inside">
+              <div
+                class="aboutMeColumn_inside"
+                style="background-color:#b56576dc"
+              >
+                <h2>IT Intern</h2>
+                <p>Ananta Resource Management</p>
+                <p>
+                  <span style="font-size: 15px">&#x1f4c5;</span>April 2021 -
+                  September 2021
+                </p>
+                <p><span style="font-size: 15px">&#x1f4cd;</span>Remote</p>
+              </div>
+
+              <div class="aboutMeRow_inside">
+                <div
+                  class="aboutMeColumn_inside"
+                  style="background-color:#b56576dc"
+                >
+                  <h2>Human Resourse Intern</h2>
+                  <p style="overflow-wrap: normal;" >Jankalyan Multipurpose Society</p>
+                  <p>
+                    <span style="font-size: 15px">&#x1f4c5;</span>March 2021
+                  </p>
+                  <p><span style="font-size: 15px">&#x1f4cd;</span>Remote</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section for projects -->
+      <div id="Projects" class="three section ">
+        <section>
+          <h2 class="text">Projects</h2>
+          <p class="text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur
+            odit magni quasi error eaque animi minus libero eveniet totam est
+            delectus ipsam, veritatis consequatur, velit nihil labore officia
+            sequi iure.
+          </p>
+          <div class="Projectsrow">
+            <div class="Projectscolumn">
+              <div class="Projectscard">
+                <img src="/w3images/team1.jpg" alt="Jane" style="width: 100%" />
+                <div class="Projectscontainer">
+                  <h2>Jane Doe</h2>
+                  <p class="title">CEO & Founder</p>
+                  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                  <p>jane@example.com</p>
+                  <p><button class="button">Contact</button></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="Projectscolumn">
+              <div class="Projectscard">
+                <img src="/w3images/team2.jpg" alt="Mike" style="width: 100%" />
+                <div class="Projectscontainer">
+                  <h2>Mike Ross</h2>
+                  <p class="title">Art Director</p>
+                  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                  <p>mike@example.com</p>
+                  <p><button class="button">Contact</button></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="Projectscolumn">
+              <div class="Projectscard">
+                <img src="/w3images/team3.jpg" alt="John" style="width: 100%" />
+                <div class="Projectscontainer">
+                  <h2>John Doe</h2>
+                  <p class="title">Designer</p>
+                  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                  <p>john@example.com</p>
+                  <p><button class="button">Contact</button></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="Projectsrow">
+            <div class="Projectscolumn">
+              <div class="Projectscard">
+                <img src="/w3images/team1.jpg" alt="Jane" style="width: 100%" />
+                <div class="Projectscontainer">
+                  <h2>Jane Doe</h2>
+                  <p class="title">CEO & Founder</p>
+                  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                  <p>jane@example.com</p>
+                  <p><button class="button">Contact</button></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="Projectscolumn">
+              <div class="Projectscard">
+                <img src="/w3images/team2.jpg" alt="Mike" style="width: 100%" />
+                <div class="Projectscontainer">
+                  <h2>Mike Ross</h2>
+                  <p class="title">Art Director</p>
+                  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                  <p>mike@example.com</p>
+                  <p><button class="button">Contact</button></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="Projectscolumn">
+              <div class="Projectscard">
+                <img src="/w3images/team3.jpg" alt="John" style="width: 100%" />
+                <div class="Projectscontainer">
+                  <h2>John Doe</h2>
+                  <p class="title">Designer</p>
+                  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                  <p>john@example.com</p>
+                  <p><button class="button">Contact</button></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div id="Contact" class="four section">
+        <h1>Contact</h1>
+        <div>
+          <form action="">
+            <!-- <fieldset>
+               <legend>Personal Info</legend> -->
+            <label for="name">Name</label>
+            <input id="name" type="text" />
+            <!-- </fieldset> -->
+            <label for="email_id">Email Id</label>
+            <input id="email_id" type="email" />
+            <label for="phone_no">Phone No.</label>
+            <input id="phone_no" type="number" />
+            <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+            <label for="msg">Message</label>
+            <input id="msg" type="text" />
+            <input type="submit">
+          </form>
+        </div>
+      </div>
+
+      <div class="five section fadeInUp">
+        <h1>first5</h1>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+   
+  </body>
+</html>
